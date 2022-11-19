@@ -52,8 +52,7 @@ ul {
 
 .main-heading h2 {
     font-weight: normal;
-    font-size: 24px;
-    margin-top: 70px;
+    font-size: 35px;
     margin-bottom: 35px;
     text-transform: uppercase;
     position: relative;
@@ -65,7 +64,7 @@ ul {
     left: 50%;
     transform: translateX(-50%);
     height: 1px;
-    width: 90px;
+    width: 130px;
     background-color: var(--secondary-color);
     bottom: -15px;
 }
