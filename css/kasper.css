@@ -4,6 +4,7 @@
     --main-color: #19c8fa;
     --secondary-color: #1f2021;
     --transparent-color: rgb(39 126 152 / 70%);
+    --section-padding: 100px;
 }
 
 * {
@@ -287,4 +288,50 @@ header .form {
 
 .landing .bullets .active {
     background-color: var(--main-color);
+}
+
+.services {
+    padding-top: var(--section-padding);
+    padding-bottom: var(--section-padding);
+}
+
+@media (min-width: 768px) {
+    .services .services-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(370px, 1fr));
+        grid-column-gap: 45px;
+        grid-row-gap: 80px;
+    }
+}
+
+.services .srv-box {
+    display: flex;
+}
+
+.services i {
+    font-size: 35px;
+    margin-right: 35px;
+}
+
+@media (max-width: 767px) {
+    .services .srv-box {
+        flex-direction: column;
+        text-align: center;
+        margin-bottom: 80px;
+    }
+
+    .services .srv-box i {
+        margin: 15px 0px;
+    }
+}
+
+.services .text h3 {
+    color: var(--main-color);
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+
+.services .text p {
+    color: #afafaf;
+    line-height: 2;
 }
