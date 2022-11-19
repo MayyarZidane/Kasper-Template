@@ -334,3 +334,67 @@ header .form {
     color: #afafaf;
     line-height: 2;
 }
+
+.design {
+    padding-top: var(--section-padding);
+    padding-bottom: var(--section-padding);
+    height: 530px;
+    background-color: var(--secondary-color);
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+
+
+.design .image {
+    text-align: center;
+}
+
+
+.design .image img {
+    position: relative;
+    bottom: -85px;
+}
+
+@media (max-width: 767px) {
+    .design {
+        flex-direction: column;
+        height: 930px;
+    }
+
+    .design .image img {
+        bottom: 42.5px;
+    }
+}
+
+.design .text {
+    color: white;
+    background-color: var(--transparent-color);
+    padding: 25px;
+}
+
+.design .image,
+.design .text {
+    flex-grow: 2;
+}
+
+.design .text h2 {
+    font-size: 24px;
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+
+.design .text li {
+    margin: 20px 0;
+    list-style-image:
+}
+
+
+.design .text li::before {
+    font-family: 'Font Awesome 6 Free';
+    content: '\e163';
+    font-weight: 900;
+    margin-right: 10px;
+    position: relative;
+    top: 1px;
+}
