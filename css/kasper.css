@@ -107,6 +107,12 @@ header .container {
     position: relative;
 }
 
+@media (max-width: 767px) {
+    header .container .logo img {
+        width: 145px;
+    }
+}
+
 header .container::after {
     content: "";
     position: absolute;
