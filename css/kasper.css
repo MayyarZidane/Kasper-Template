@@ -569,3 +569,59 @@ header .form {
         bottom: -60px;
     }
 }
+
+.stats {
+    padding-top: var(--section-padding);
+    padding-bottom: var(--section-padding);
+    background-color: var(--secondary-color);
+    text-align: center;
+}
+
+.stats .container {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: var(--transparent-color);
+}
+
+.stats .box {
+    padding: 50px;
+    color: white;
+    width: 25%;
+}
+
+@media (max-width: 767px) {
+    .stats .box {
+        flex-basis: 100%;
+        border-bottom: 1px solid #726f71;
+    }
+}
+
+@media (min-width: 768px) {
+    .stats .box {
+        flex-basis: 50%;
+    }
+}
+
+@media (min-width: 992px) {
+    .stats .box {
+        flex-basis: 25%;
+    }
+}
+
+.stats .box i {
+    font-size: 35px;
+    margin-bottom: 20px;
+    background-color: var(--secondary-color);
+    padding: 15px;
+    border-radius: 50%;
+}
+
+.stats .box .number {
+    font-size: 55px;
+    font-weight: bold;
+    margin: 0 0 20px 0;
+}
+
+.stats .box p {
+    font-size: 17px;
+}
