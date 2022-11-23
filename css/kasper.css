@@ -548,3 +548,24 @@ header .form {
     padding: 10px 20px;
     text-transform: uppercase;
 }
+
+.about {
+    padding-top: var(--section-padding);
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+}
+
+.about img {
+    position: relative;
+    margin-top: -120px;
+    bottom: -120px;
+    max-width: 100%;
+}
+
+@media (max-width: 768px) {
+    .about img {
+        margin-top: -120px;
+        bottom: -60px;
+    }
+}
