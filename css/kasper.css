@@ -763,3 +763,24 @@ header .form {
     border-style: solid;
     border-color: var(--secondary-color) transparent transparent transparent;
 }
+
+.quote {
+    padding-top: var(--section-padding);
+    padding-bottom: var(--section-padding);
+    background-color: var(--secondary-color);
+    color: white;
+    text-align: center;
+}
+
+.quote q {
+    display: block;
+    font-size: 25px;
+    line-height: 1.2;
+    margin-bottom: 25px;
+    text-transform: uppercase;
+}
+
+.quote span {
+    font-size: 18px;
+    display: block;
+}
