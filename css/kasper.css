@@ -413,6 +413,7 @@ header .form {
 .portfolio .shuffle {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .portfolio .shuffle li.active {
@@ -929,15 +930,15 @@ header .form {
 
 .subscribe .container form i {
     font-size: 24px;
-    margin: 0px 15px;
+    margin: 0px 15px 0px 10px;
 }
 
 .subscribe .container form input[type="email"] {
-    flex-grow: 2;
     background-color: transparent;
     color: white;
     caret-color: var(--main-color);
     border: none;
+    width: calc(100% - 150px);
 }
 
 .subscribe .container form input[type="email"]:focus {
@@ -950,6 +951,7 @@ header .form {
     text-transform: uppercase;
     background-color: var(--main-color);
     border: none;
+    width: 150px;
 }
 
 .subscribe p {
