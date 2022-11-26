@@ -1066,3 +1066,44 @@ header .form {
         margin-bottom: 15px;
     }
 }
+
+.footer {
+    padding-top: calc(var(--section-padding) / 2);
+    padding-bottom: calc(var(--section-padding) / 2);
+    background-color: var(--secondary-color);
+    color: white;
+    text-align: center;
+}
+
+.footer .logo img {
+    width: 145px;
+}
+
+.footer p:not(.copyright) {
+    padding: 20px;
+    font-size: 18px;
+    text-transform: uppercase;
+    width: fit-content;
+    border-bottom: 1px solid white;
+    margin: 0 auto;
+}
+
+.footer .social-icons {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.footer .social-icons i {
+    margin: 0px 10px;
+}
+
+.footer .copyright {
+    font-size: 14px;
+    margin-top: 40px;
+}
+
+.footer .copyright span {
+    font-weight: bold;
+    color: var(--main-color);
+}
