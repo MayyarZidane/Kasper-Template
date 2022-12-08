@@ -200,7 +200,8 @@ header .form {
 }
 
 .landing {
-    min-height: 100vh;
+    min-height: 600px;
+    max-height: 100vh;
     background-image: url("../images/landing.jpeg");
     background-size: 100% 100%;
     background-repeat: no-repeat;
